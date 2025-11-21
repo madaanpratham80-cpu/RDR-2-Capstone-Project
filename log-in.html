@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login - Red Dead Redemption</title>
+    <link rel="stylesheet" href="login.css">
+    <link rel="stylesheet" href="site.css"> 
+</head>
+<body>
+    <div class="login-container">
+        <img src="https://media-rockstargames-com.akamaized.net/tina-uploads/tina-modules/reddeadredemption/e6432d98129ac79c2d6d6c3ce1e1817f89815fdd.svg" alt="Red Dead Redemption" class="logo">
+        <h2>Log In to Your Account</h2>
+        
+        <form class="login-form" action="/login-process" method="POST">
+            <div class="form-group">
+                <label for="username">Username or Email</label>
+                <input type="text" id="username" name="username" required>
+            </div>
+            
+            <div class="form-group">
+                <label for="password">Password</label>
+                <input type="password" id="password" name="password" required>
+            </div>
+            
+            <button type="submit" class="login-btn">Log In</button>
+        </form>
+        
+        <div class="login-footer">
+            <a href="#">Forgot Password?</a>
+            <p>Don't have an account? <a href="#">Sign Up</a></p>
+            <p><a href="base.html">← Back to Home</a></p>
+        </div>
+    </div>
+</body>
+</html>
